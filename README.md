@@ -3,13 +3,19 @@ simple payment tracker application
 
 #How to run:
 build project and run tests by Maven  
-```mvn package 
+```
+mvn package
+``` 
 
-run application from folder /target
-```java -cp paymentTracker-1.0-SNAPSHOT.jar pt.App
+run application from folder /target  
+```
+java -cp paymentTracker-1.0-SNAPSHOT.jar pt.App
+```
 
-run application with loading file
-```java -cp paymentTracker-1.0-SNAPSHOT.jar pt.App -f input.txt
+run application with loading file  
+```
+java -cp paymentTracker-1.0-SNAPSHOT.jar pt.App -f input.txt
+```
 
 #Usage:
 USD 123 - sample input, pattern for currency with amount is ^[A-Z]{3}[\\s]{1}[+-]?[0-9]{1,10}[.]?[0-9]{0,6}$  
