@@ -18,31 +18,31 @@ r rateFile.txt - file with currency rates, see example file src\test\resources\r
 q - quit
 
 Features:
--supported format of input is: USD -123.123456
--every minute application prints list of all currencies
--it supports load file with multiple exchange rates, see example file rateFile.txt. These rates are used in one minute report 
--currency with amount is possible to type into command line or load from file, see usage.
--thread safe
--simple controls
--simple junit tests
--patterns: Singleton, Builder, Beans, Method Chaining 
+-supported format of input is: USD -123.123456  
+-every minute application prints list of all currencies  
+-it supports load file with multiple exchange rates, see example file rateFile.txt. These rates are used in one minute report   
+-currency with amount is possible to type into command line or load from file, see usage  
+-thread safe  
+-simple controls  
+-simple junit tests  
+-patterns: Singleton, Builder, Beans, Method Chaining  
 
 Screenshots:
-One minute report
-****************************************************************
-****************************************************************
-***************** One minute report ****************************
-CZK 21
-HUF 215
-USD -122
-GBP 2000
+One minute report  
+****************************************************************  
+****************************************************************  
+***************** One minute report ****************************  
+CZK 21  
+HUF 215  
+USD -122  
+GBP 2000  
 
-One minute report with exchange rates
-****************************************************************
-****************************************************************
-***************** One minute report ****************************
-CZK 21
-HUF 215 (CZK 215.00)
-USD -122 (CZK -3078.06) (HUF -1.22) (EUR -150.06)
-GBP 2000
+One minute report with exchange rates  
+****************************************************************  
+****************************************************************  
+***************** One minute report ****************************  
+CZK 21  
+HUF 215 (CZK 215.00)  
+USD -122 (CZK -3078.06) (HUF -1.22) (EUR -150.06)  
+GBP 2000  
 
