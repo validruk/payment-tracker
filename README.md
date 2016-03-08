@@ -34,7 +34,7 @@ q - quit
 -patterns: Singleton, Builder, Beans, Method Chaining  
 
 #Screenshots:
-One minute report  
+###One minute report  
 ****************************************************************  
 ****************************************************************  
 ***************** One minute report ****************************  
@@ -43,7 +43,7 @@ HUF 215
 USD -122  
 GBP 2000  
 
-One minute report with exchange rates  
+###One minute report with exchange rates  
 ****************************************************************  
 ****************************************************************  
 ***************** One minute report ****************************  
