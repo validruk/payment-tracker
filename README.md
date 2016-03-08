@@ -12,9 +12,9 @@ java -cp paymentTracker-1.0-SNAPSHOT.jar pt.App
 java -cp paymentTracker-1.0-SNAPSHOT.jar pt.App -f input.txt
 
 Usage:
-USD 123 - sample input, pattern for currency with amount is ^[A-Z]{3}[\\s]{1}[+-]?[0-9]{1,10}[.]?[0-9]{0,6}$\n
-f file.txt - data from file, see example file src\test\resources\input.txt
-r rateFile.txt - file with currency rates, see example file src\test\resources\rateFile.txt
+USD 123 - sample input, pattern for currency with amount is ^[A-Z]{3}[\\s]{1}[+-]?[0-9]{1,10}[.]?[0-9]{0,6}$  
+f file.txt - data from file, see example file src\test\resources\input.txt  
+r rateFile.txt - file with currency rates, see example file src\test\resources\rateFile.txt  
 q - quit
 
 Features:
