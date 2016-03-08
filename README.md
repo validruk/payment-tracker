@@ -1,23 +1,23 @@
 # payment-tracker
 simple payment tracker application
 
-How to run:
-#build project and run tests by Maven
+#How to run:
+--build project and run tests by Maven
 mvn package 
 
-#run application from folder /target
+--run application from folder /target
 java -cp paymentTracker-1.0-SNAPSHOT.jar pt.App
 
-#run application with loading file
+run application with loading file
 java -cp paymentTracker-1.0-SNAPSHOT.jar pt.App -f input.txt
 
-Usage:
+#Usage:
 USD 123 - sample input, pattern for currency with amount is ^[A-Z]{3}[\\s]{1}[+-]?[0-9]{1,10}[.]?[0-9]{0,6}$  
 f file.txt - data from file, see example file src\test\resources\input.txt  
 r rateFile.txt - file with currency rates, see example file src\test\resources\rateFile.txt  
 q - quit
 
-Features:
+#Features:
 -supported format of input is: USD -123.123456  
 -every minute application prints list of all currencies  
 -it supports load file with multiple exchange rates, see example file rateFile.txt. These rates are used in one minute report   
@@ -27,7 +27,7 @@ Features:
 -simple junit tests  
 -patterns: Singleton, Builder, Beans, Method Chaining  
 
-Screenshots:
+#Screenshots:
 One minute report  
 ****************************************************************  
 ****************************************************************  
